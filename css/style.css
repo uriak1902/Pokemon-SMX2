@@ -1,0 +1,46 @@
+/* Fondo de la página */
+body{
+    margin:0;
+    font-family: monospace;
+    color:white;
+
+    /* Imagen de fondo */
+    background-image: url("../img/kanto-map.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Título */
+h1{
+    text-align:center;
+    font-size:60px;
+    margin-top:20px;
+}
+
+/* Zona izquierda */
+.menu{
+    margin-left:50px;
+    margin-top:40px;
+}
+
+/* Imagen de la pokedex */
+.pokedex{
+    width:300px;
+}
+
+/* Lista de pokemon */
+ul{
+    margin-top:20px;
+    font-size:25px;
+}
+
+/* Links */
+a{
+    color:white;
+    text-decoration:none;
+}
+
+a:hover{
+    color:yellow;
+}
