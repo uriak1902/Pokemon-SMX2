@@ -38,10 +38,10 @@ ul{
 
 /* Links */
 a{
-    color:white;
+    color:rgb(255, 0, 0);
     text-decoration:none;
 }
 
 a:hover{
-    color:yellow;
+    color:rgb(60, 60, 4);
 }
