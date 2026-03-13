@@ -2,7 +2,7 @@
 body{
     margin:0;
     font-family: monospace;
-    color:white;
+    color:rgb(244, 195, 195);
 
     /* Imagen de fondo */
     background-image: url("../img/kanto-map.jpeg");
