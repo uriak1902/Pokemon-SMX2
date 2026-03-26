@@ -45,3 +45,34 @@ a{
 a:hover{
     color:rgb(255, 255, 2);
 }
+
+/* Imagen del pokemon */
+.pokemon{
+    width:200px;
+}
+
+/* Tipo fuego */
+.tipo{
+    padding:5px 10px;
+    border-radius:5px;
+    color:black;
+}
+
+.fuego{
+    background-color:orange;
+}
+
+/* Evoluciones */
+.evoluciones img{
+    width:120px;
+    margin:10px;
+}
+
+/* Botón volver */
+.volver{
+    background-color:red;
+    color:white;
+    padding:10px 15px;
+    text-decoration:none;
+    border-radius:5px;
+}
