@@ -16,6 +16,7 @@ h1{
     text-align:center;
     font-size:60px;
     color:white;
+    background-color: black;
 }
 
 /* MENU IZQUIERDA */
@@ -23,6 +24,15 @@ h1{
     margin-left:50px;
     margin-top:40px;
     color:white;
+    ul li a{
+    color:white;
+    transition:0.3s;
+}
+
+/* Cuando pasas el ratón */
+ul li a:hover{
+    color:yellow;
+}
 }
 
 .pokedex{
