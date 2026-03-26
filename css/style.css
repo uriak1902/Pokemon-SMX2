@@ -131,3 +131,9 @@ ul li:nth-child(2) a:hover{
 ul li:nth-child(3) a:hover{
     color:lightblue; /* Squirtle */
 }
+.planta{
+    background-color: green;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
