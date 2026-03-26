@@ -113,6 +113,13 @@ body {
     text-decoration: none;
     border-radius: 8px;
     /* Hover colores tipo pokemon */
+/* Links */
+a{
+    color:white;
+    text-decoration:none;
+}
+
+/* Hover colores tipo pokemon */
 ul li:nth-child(1) a:hover{
     color:lightgreen; /* Bulbasaur */
 }
