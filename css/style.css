@@ -46,33 +46,51 @@ a:hover{
     color:rgb(255, 255, 2);
 }
 
-/* Imagen del pokemon */
-.pokemon{
-    width:200px;
+/* Fondo beige */
+body{
+    background-color:#d8c9b0;
+    font-family: monospace;
+    margin:0;
+    padding:20px;
 }
 
-/* Tipo fuego */
-.tipo{
-    padding:5px 10px;
+/* Título */
+h1{
+    text-align:center;
+    font-size:40px;
+}
+
+/* Imagen principal */
+.pokemon{
+    width:250px;
+}
+
+/* Tipo fuego (como tu imagen) */
+.fuego{
+    background-color:orange;
+    padding:3px 8px;
     border-radius:5px;
     color:black;
 }
 
-.fuego{
-    background-color:orange;
+/* Texto descripción */
+p{
+    font-size:18px;
+    max-width:900px;
 }
 
 /* Evoluciones */
-.evoluciones img{
+img{
     width:120px;
     margin:10px;
 }
 
-/* Botón volver */
-.volver{
+/* Botón rojo */
+.boton{
     background-color:red;
     color:white;
-    padding:10px 15px;
+    padding:10px 20px;
     text-decoration:none;
     border-radius:5px;
+    font-size:18px;
 }
