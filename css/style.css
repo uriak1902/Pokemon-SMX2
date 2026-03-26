@@ -1,57 +1,115 @@
-/* Fondo */
-.fondo-index{
+/* ====== RESETEO GENERAL ====== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive; /* FUENTE PIXELADA */
+}
+
+/* ====== RECTÁNGULO PEQUEÑO SUPERIOR ====== */
+.title-box {
+    background: rgba(2, 2, 2, 0.85); /* Negro opaco */
+    padding: 15px 25px; /* Tamaño pequeño como en tu imagen */
+    border-radius: 8px; /* Bordes suaves */
+    display: inline-block; /* Para que NO ocupe todo el ancho */
+    margin: 20px auto 0 auto; /* Centrado arriba */
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); /* Centrado perfecto */
+}
+
+.title-box h1 {
+    color: white;
+    font-size: 22px; /* Tamaño EXACTO como tu imagen */
+    margin: 0;
+    text-shadow: 3px 3px 0px black;
+}
+
+/* ====== CONTENEDOR PRINCIPAL ====== */
+.index-container {
     background-image: url("../img/kanto-map.jpeg");
     background-size: cover;
     background-position: center;
+    width: 100vw;
+    height: 100vh;
+    padding-left: 20px;
+    padding-top: 120px; /* Para que no tape el rectángulo */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
-/* Título estilo imagen */
-.titulo{
-    text-align:center;
-    font-size:60px;
-    color:white;
-    background-color: rgba(0,0,0,0.6);
-    display:inline-block;
-    padding:10px 30px;
-    border-radius:10px;
-    margin:20px auto;
-    display:block;
-    width:fit-content;
+/* ====== IMAGEN DEL POKEDEX ====== */
+.pokedex-img {
+    width: 300px;
+    margin-bottom: 20px;
 }
 
-/* Zona izquierda */
-.menu{
-    margin-left:40px;
-    margin-top:40px;
+/* ====== LISTA DE POKÉMON ====== */
+.pokemon-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    color: white;
+    text-shadow: 3px 3px 0px black;
 }
 
-/* Imagen pokedex */
-.pokedex{
-    width:300px;
+.pokemon-list li {
+    margin: 15px 0;
 }
 
-/* Lista */
-ul{
-    margin-top:20px;
-    font-size:25px;
-    list-style: disc;
+.pokemon-list a {
+    color: white;
+    text-decoration: none;
 }
 
-/* Links */
-a{
-    color:white;
-    text-decoration:none;
+.pokemon-list a:hover {
+    text-decoration: underline;
 }
 
-/* Hover colores tipo pokemon */
-ul li:nth-child(1) a:hover{
-    color:lightgreen; /* Bulbasaur */
+/* ====== RESET (PÁGINAS POKEMON) ====== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 14px;
+    line-height: 1.6;
 }
 
-ul li:nth-child(2) a:hover{
-    color:orange; /* Charmander */
+/* ====== FONDO BEIGE ====== */
+.pokemon-background {
+    background-color: #f3e7d3;
+    padding: 40px;
 }
 
-ul li:nth-child(3) a:hover{
-    color:lightblue; /* Squirtle */
+/* ====== TÍTULO CENTRADO ====== */
+.pokemon-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+/* ====== IMAGEN IZQUIERDA ====== */
+.pokemon-img {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+/* ====== TEXTO COMPLETO ====== */
+.pokemon-text {
+    width: 100%;
+    max-width: none; /* clave para que se expanda */
+}
+
+/* ====== BOTÓN ====== */
+.back-button {
+    display: block;
+    width: fit-content;
+    margin: 30px auto; /* centra horizontalmente */
+    padding: 12px 25px;
+    background: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
 }
