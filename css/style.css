@@ -95,7 +95,12 @@ body {
     padding: 6px 10px;
     border-radius: 6px;
 }
-
+.planta {
+    background: green;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+}
 .fuego {
     background: orange;
     color: black;
