@@ -1,14 +1,10 @@
-/* ===============================
-   RESET
-================================ */
+/*  RESET */
 body {
     margin: 0;
     font-family: 'Press Start 2P', cursive;
 }
 
-/* ===============================
-   INDEX (MAPA)
-================================ */
+/* INDEX (MAPA) */
 .title-box {
     background: rgba(0,0,0,0.85);
     padding: 15px 25px;
@@ -65,7 +61,7 @@ body {
     padding: 40px;
 }
 
-/* CONTENEDOR (MEJORA VISUAL 🔥) */
+/* CONTENEDOR */
 .pokemon-card {
     max-width: 900px;
     margin: auto;
@@ -128,15 +124,13 @@ body {
     cursor: pointer;
 }
 
-/* HOVER PRO 🔥 */
+/* HOVER */
 .evoluciones img:hover {
     transform: scale(1.2);
     filter: brightness(1.2);
 }
 
-/* ===============================
-   BOTÓN
-================================ */
+/* BOTÓN */
 .back-button {
     display: block;
     margin: 40px auto;
