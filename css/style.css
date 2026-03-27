@@ -52,9 +52,7 @@ body {
 .pokemon-list li:nth-child(2) a:hover { color: orange; }
 .pokemon-list li:nth-child(3) a:hover { color: lightblue; }
 
-/* ===============================
-   PÁGINAS POKEMON
-================================ */
+/* PÁGINAS POKEMON= */
 .pokemon-background {
     background-color: #f3e7d3;
     min-height: 100vh;
@@ -86,9 +84,7 @@ body {
     line-height: 1.6;
 }
 
-/* ===============================
-   TIPOS
-================================ */
+/* TIPOS */
 .planta {
     background: green;
     color: white;
