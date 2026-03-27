@@ -1,10 +1,14 @@
-/* RESET */
+/* ===============================
+   RESET
+================================ */
 body {
     margin: 0;
     font-family: 'Press Start 2P', cursive;
 }
 
-/* INDEX */
+/* ===============================
+   INDEX
+================================ */
 .title-box {
     background: rgba(0,0,0,0.85);
     padding: 15px 25px;
@@ -50,21 +54,25 @@ body {
 .pokemon-list li:nth-child(2) a:hover { color: orange; }
 .pokemon-list li:nth-child(3) a:hover { color: lightblue; }
 
-/* PÁGINAS */
+/* ===============================
+   PÁGINAS POKEMON
+================================ */
 .pokemon-background {
     background-color: #f3e7d3;
-    min-height: 100vh;
     padding: 40px;
 }
 
+/* TÍTULO */
 .pokemon-title {
     text-align: center;
 }
 
+/* IMAGEN PRINCIPAL */
 .pokemon-img {
     width: 300px;
 }
 
+/* TEXTO */
 .pokemon-text {
     max-width: 900px;
 }
@@ -89,9 +97,10 @@ body {
     border-radius: 5px;
 }
 
-/* EVOLUCIONES */
+/* EVOLUCIONES (CLAVE 🔥) */
 .evoluciones img {
-    width: 120px;
+    width: auto; /* IMPORTANTE → no se hacen pequeñas */
+    max-width: 200px;
     margin: 10px;
 }
 
